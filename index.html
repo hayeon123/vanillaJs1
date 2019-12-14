@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <table>
+      <tr>
+        <td colspan="3">
+          <input
+            type="text"
+            id="result"
+            class="result"
+            readonly="readonly"
+            value="0"
+          />
+        </td>
+        <td>
+          <input type="button" id="c1" class="c1" value="C" />
+        </td>
+      </tr>
+      <tr>
+        <td><input type="button" class="num" name="7" value="7" /></td>
+        <td><input type="button" class="num" name="8" value="8" /></td>
+        <td><input type="button" class="num" name="9" value="9" /></td>
+        <td><input type="button" class="op" id="add" value="+" /></td>
+      </tr>
+      <tr>
+        <td><input type="button" class="num" name="4" value="4" /></td>
+        <td><input type="button" class="num" name="5" value="5" /></td>
+        <td><input type="button" class="num" name="6" value="6" /></td>
+        <td><input type="button" class="op" id="sub" value="-" /></td>
+      </tr>
+      <tr>
+        <td><input type="button" class="num" name="1" value="1" /></td>
+        <td><input type="button" class="num" name="2" value="2" /></td>
+        <td><input type="button" class="num" name="3" value="3" /></td>
+        <td><input type="button" class="op" id="mul" value="*" /></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="button" class="num" name="0" value="0" />
+        </td>
+
+        <td><input type="button" class="getResult" value="=" /></td>
+        <td><input type="button" class="op" id="div" value="/" /></td>
+      </tr>
+    </table>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
